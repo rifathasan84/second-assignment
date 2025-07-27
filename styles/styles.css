@@ -272,12 +272,67 @@ body {
     cursor: pointer;
 }
 
+/* footer  */
+footer {
+    padding: 50px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.logo-section {
+    flex: 1;
+}
+
+.logo-section img {
+    height: 82px;
+}
+
+.logo-section p {
+    font-size: 22px;
+    font-weight: normal;
+    max-width: 360px;
+}
+
+.nav-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-section ul li {
+    margin-bottom: 32px;
+}
+
+.nav-section ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-section {
+    flex: 1;
+}
+
+.social-section a {
+    margin-left: 24px;
+}
+
+.social-section img {
+    height: 36px;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
     .vis {
         display: none;
     }
 
+    /* navbar  */
     .navbar {
         padding: 0.8rem 1rem;
 
@@ -292,6 +347,7 @@ body {
         font-size: 1rem
     }
 
+    /* banner  */
     .banner {
         flex-direction: column;
         padding: 1rem;
@@ -318,6 +374,7 @@ body {
 
     }
 
+    /* cards  */
     .cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -328,6 +385,7 @@ body {
         display: none;
     }
 
+    /* container  */
     .container {
         flex-direction: column;
         padding: 0.5rem;
@@ -350,6 +408,7 @@ body {
         font-size: 14px;
         margin-left: 10px;
     }
+
     /* join section  */
     .join-section h1 {
         font-size: 1.8rem;
@@ -358,12 +417,15 @@ body {
     .join-form {
         margin: 0 auto;
     }
-    .join-form input{
+
+    .join-form input {
         width: 100%;
 
     }
+
     .join-form button {
         width: 50%;
     }
-}
 
+
+}
