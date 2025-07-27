@@ -427,5 +427,45 @@ footer {
         width: 50%;
     }
 
+    /* footer  */
+    footer {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .logo-section img {
+        height: 109px;
+        margin-left: 5px;
+    }
+
+    .logo-section p {
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .nav-section ul {
+        margin: 5px 5px;
+    }
+
+    .nav-section ul li {
+        margin-bottom: 32px;
+    }
+
+    .nav-section ul li a {
+        font-size: 14px;
+    }
+
+    .social-section a {
+        margin: 0 5px;
+    }
+
+    .social-section img {
+        height: 36px;
+    }
+
 
 }
